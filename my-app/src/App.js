@@ -5,7 +5,7 @@ import config from './config';
 
 const API_ROOT = `${config.base}jsonapi/`;
 const CONTENT_TYPE = `layouts`;
-const LIST_URL = `${API_ROOT}node/${CONTENT_TYPE}?include=field_layout_image`;
+const LIST_URL = `${API_ROOT}node/${CONTENT_TYPE}`;
 
 class App extends React.Component{
   constructor(){
