@@ -16,11 +16,11 @@ class LayoutsList extends React.Component {
 
         return(
             <div className="App">
-            <h1>This comes from Drupal API</h1>
-            {data !== null &&
-            data !== undefined &&
-            data.length > 0 ? data.map(item => <Layoutitem {...item} key={item.id}/>) : <div>No Drupal Content found.</div>
-            }
+                <h1>This comes from Drupal API ! Yaay :) </h1>
+                {data !== null &&
+                data !== undefined &&
+                data.length > 0 ? data.map(item => <Layoutitem {...item} key={item.id}/>) : <div>No Drupal Content found.</div>
+                }
             </div>
         )
     }
