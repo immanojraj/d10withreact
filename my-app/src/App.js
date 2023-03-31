@@ -25,7 +25,7 @@ class App extends React.Component{
         return response.json();
       })
       .then((data) => this.updateData(data))
-      .catch(err => console.log('Fetching Destinations Failed', err));
+      .catch(err => console.log('Fetching Contents Failed', err));
   }
 
   updateData(responseData) {
